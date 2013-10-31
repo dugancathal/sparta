@@ -16,6 +16,8 @@ gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
 
+gem 'bcrypt-ruby', '~> 3.0.0'
+
 group :doc do
   gem 'sdoc', require: false
 end
@@ -23,5 +25,6 @@ end
 group :development, :test do 
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'haml-rails', '>= 0.3.4'
 end
 
