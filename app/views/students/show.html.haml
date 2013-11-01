@@ -1,0 +1,13 @@
+%p#notice= notice
+
+%p
+  %b ID Number:
+  = @student.id_number
+
+%p
+  %b Grade Level:
+  = @student.grade_level
+
+= link_to 'Edit', edit_student_path(@student)
+\|
+=link_to 'Back', students_path

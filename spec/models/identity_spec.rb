@@ -13,8 +13,20 @@ describe Identity do
     Identity.new.should respond_to(:first_name) 
   end
 
+  it "has a middle_name" do
+    Identity.new.should respond_to(:middle_name) 
+  end
+
   it "has a last_name" do
     Identity.new.should respond_to(:last_name) 
+  end
+  
+  it "has a gender" do
+    Identity.new.should respond_to(:gender) 
+  end
+  
+  it "has a email" do
+    Identity.new.should respond_to(:email) 
   end
   
   it "can be an admin" do
