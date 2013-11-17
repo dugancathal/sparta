@@ -32,4 +32,8 @@ ActiveRecord::Schema.define(version: 20131031234913) do
     t.integer "grade_level"
   end
 
+  create_table "teachers", force: true do |t|
+    t.string "email"
+  end
+
 end
